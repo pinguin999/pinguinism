@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #466fd0;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #77a9e6 15%, #153c84 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #77a9e6 15%, #153c84 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #77a9e6 15%, #153c84 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #77a9e6 15%, #153c84 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #466fd0;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -1702,7 +1702,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0;
 	}
 
 		p.content {
@@ -2255,7 +2255,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #466fd0;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -3107,7 +3107,7 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 1em 5em 1em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3136,7 +3136,7 @@
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0;
 			}
 
 				#header.alt .logo img {
